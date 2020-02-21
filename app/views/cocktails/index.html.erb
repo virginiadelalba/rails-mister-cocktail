@@ -1,0 +1,18 @@
+
+<div class="logo">LeCoctel</div>
+<img src="/Users/virginiagarcia/code/virginiadelalba/rails-mister-cocktail/app/assets/images">
+<div class="container">
+  <div class="banner">
+<h1> Delish Cocktails </h1>
+<h4> Best drinks in da hood <h4>
+  </div>
+<ul>
+  <% @cocktails.each do |cocktail| %>
+    <li>
+       <%= link_to cocktail.name, cocktail_path(cocktail)%>
+    </li>
+  <% end %>
+</ul>
+
+<%= link_to "Create new cocktail", new_cocktail_path %>
+</div>

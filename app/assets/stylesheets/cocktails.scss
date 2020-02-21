@@ -1,0 +1,13 @@
+// Place all the styles related to the cocktails controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.logo {
+  background-image: asset-url('logo.jpg');
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  justify-content: space-between;
+}
+.container {
+
+}
